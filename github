@@ -26,3 +26,26 @@ git checkout feature-branch
 git rebase main
 
 git log
+git tag -a v1.0 -m"tag v1.0"
+git show v1.0
+git push origin v1.0
+
+git log --oneline
+git branch 2.0
+git log --oneline
+git checkout feature-branch
+git add .
+git commit -m ""
+git push
+git log --oneline
+git checkout 2.0
+git cherry-pick(head code)
+
+git log --oneline
+git show(head)
+git log --author="" --after="" --before""
+git log -n 5 --oneline
+
+
+
+
